@@ -9,9 +9,10 @@
   "author": "Dhaval Tank",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@gsap/react": "^2.0.2",
