@@ -1,4 +1,5 @@
 module.exports = {
   reactStrictMode: false,
-  distDir: 'build', 
+  distDir: 'build',
+  output: 'export',
 };
