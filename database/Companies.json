@@ -1,0 +1,24 @@
+[
+  {
+    "position": "ReactJs Intern",
+    "company": "TechCompose Solutions Pvt. Ltd.",
+    "duration": "January 2023 - June 2023",
+    "location": "On-site",
+    "color": {
+      "h": "221",
+      "s": "79%",
+      "l": "51%"
+    }
+  },
+  {
+    "position": "Jr. Frontend Developer",
+    "company": "TechCompose Solutions Pvt. Ltd.",
+    "duration": "July 2018 - Working",
+    "location": "On-site",
+    "color": {
+      "h": "206",
+      "s": "59%",
+      "l": "44%"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "name": "Dhaval",
+    "title": "Dhaval Tank - Frontend Developer",
+    "description": "I develop accessible, responsive, interactive, and animated websites with a strong focus on performance.",
+    "timeZone": "Asia/Kolkata",
+    "locale": "en-IN"
+  },
+  "personal": {
+    "name": "Dhaval",
+    "surname": "Tank",
+    "role": "Frontend Developer",
+    "experience": 2,
+    "email": "dhavaltank2001@gmail.com",
+    "phone": "+919904924102",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India",
+    "username": "@DhavalTank01",
+    "resumeURL": "https://drive.google.com/drive/folders/1rkmhgsyVxivJ8PPgA7jSPrBmn69l3vJl?usp=sharing"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/dhaval._tank_.01/",
+    "linkedin": "https://www.linkedin.com/in/dhaval-tank-0950ba177/",
+    "github": "https://github.com/DhavalTank01",
+    "email": "mailto:dhavaltank2001@gmail.com",
+    "phone": "tel:+919904924102",
+    "whatsapp": "https://wa.me/919904924102"
+  }
+}
