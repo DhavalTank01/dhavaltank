@@ -1,7 +1,5 @@
 module.exports = {
-  distDir: 'build',
-  trailingSlash: true,
-  basePath: "/2048-in-react",
+  basePath: "/dhavaltank",
   output: "export",
   reactStrictMode: true,
 };
