@@ -1,5 +1,8 @@
 module.exports = {
   basePath: "/dhavaltank",
-  output: "standalone",
   reactStrictMode: true,
+  distDir: 'dist',
+  images: {
+  unoptimized: true,
+  },
 };
