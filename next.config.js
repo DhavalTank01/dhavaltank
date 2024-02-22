@@ -1,5 +1,5 @@
 module.exports = {
   basePath: "/dhavaltank",
-  output: "export",
+  output: "standalone",
   reactStrictMode: true,
 };
