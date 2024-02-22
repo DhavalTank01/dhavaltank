@@ -3,6 +3,7 @@ module.exports = {
   reactStrictMode: true,
   distDir: 'dist',
   images: {
-  unoptimized: true,
+    unoptimized: true,
   },
+  output: "export",
 };
