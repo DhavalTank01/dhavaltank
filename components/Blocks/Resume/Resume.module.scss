@@ -1,4 +1,4 @@
-@import '/assets/media-queries.scss';
+@import "/assets/media-queries.scss";
 
 .section {
   position: relative;
@@ -19,19 +19,19 @@
   }
 }
 
-.cardGroup{
+.cardGroup {
   position: relative;
   z-index: 1;
   margin-bottom: calc(var(--x-spacing) * 1.5);
-  &:hover{
-    .card{
-      &.cardV1{
+  &:hover {
+    .card {
+      &.cardV1 {
         transform: rotate(-5deg) translateY(-2%) !important;
       }
-      &.cardV2{
+      &.cardV2 {
         transform: rotate(5deg) translateY(2%) !important;
       }
-      .figure{
+      .figure {
         top: 10%;
       }
     }
@@ -39,13 +39,13 @@
 }
 .card {
   position: relative;
-  background-color: hsla(var(--color-black), .2);
-  backdrop-filter: blur(.4rem);
+  background-color: hsla(var(--color-black), 0.2);
+  backdrop-filter: blur(0.4rem);
   border-radius: 2rem;
   padding: 1.5rem;
   aspect-ratio: 3 / 4;
   max-width: 38rem;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   @include respond-below(sm) {
     max-width: 22rem;
     border-radius: 1rem;
@@ -53,15 +53,19 @@
 
   &.cardV1 {
     /*transform: rotate(-5deg);*/
-    .cardInner{
+    .cardInner {
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
         height: 4rem;
-        background: linear-gradient(to top, hsla(var(--color-white), 0.8), transparent);
+        background: linear-gradient(
+          to top,
+          hsla(var(--color-white), 0.8),
+          transparent
+        );
       }
     }
   }
@@ -74,9 +78,9 @@
     left: 50%;
     width: 90%;
     height: 100%;
-    .cardInner{
+    .cardInner {
       background-image: none;
-      background-color: #1E1F22;
+      background-color: #1e1f22;
       padding: 0;
     }
   }
@@ -119,13 +123,17 @@
       font-size: var(--fs-xxs);
       color: hsl(var(--color-body));
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(to top, hsla(var(--color-bg), 1) 10%, transparent 50%);
+        background: linear-gradient(
+          to top,
+          hsla(var(--color-bg), 1) 10%,
+          transparent 50%
+        );
       }
     }
 
@@ -134,14 +142,15 @@
       border: 0;
     }
 
-    a, span {
+    a,
+    span {
       display: block;
       font-size: var(--fs-xxs);
       color: hsl(var(--color-body));
       margin: 0.5rem 0;
     }
   }
-  .figure{
+  .figure {
     position: absolute;
     right: -2rem;
     top: 15%;
@@ -150,9 +159,9 @@
     border: 2px solid hsl(var(--color-white));
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 1rem 5rem 1rem hsla(var(--color-black), .2);
-    transition: all .3s ease;
-    img{
+    box-shadow: 0 1rem 5rem 1rem hsla(var(--color-black), 0.2);
+    transition: all 0.3s ease;
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -233,40 +242,40 @@
   }
 }
 
-.cta{
+.cta {
   margin-bottom: 3rem;
 }
 
-.links{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    a{
-      position: relative;
-      display: inline-block;
-      padding: .5rem;
-      color: hsl(var(--color-body));
-      font-size: var(--fs-xs);
-      text-decoration: none;
-      transition: all 0.3s ease-in-out;
-      &:after{
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: hsl(var(--color-primary));
-        bottom: 0;
-        left: 0;
-        transform-origin: right;
-        transform: scaleX(0);
-        transition: transform .3s ease-in-out;
-      }
-      &:hover{
-        &:after{
-          transform-origin: left;
-          transform: scaleX(1);
-        }
-        color: hsl(var(--color-primary));
-      }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  a {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem;
+    color: hsl(var(--color-body));
+    font-size: var(--fs-xs);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: hsl(var(--color-primary));
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform 0.3s ease-in-out;
     }
+    &:hover {
+      &:after {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+      color: hsl(var(--color-primary));
+    }
+  }
 }

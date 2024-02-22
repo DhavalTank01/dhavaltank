@@ -1,10 +1,10 @@
-@import '/assets/media-queries.scss';
+@import "/assets/media-queries.scss";
 
-.section{
+.section {
   position: relative;
   padding: calc(var(--y-spacing) - var(--x-spacing)) 0 0;
   overflow: hidden;
-  .bg{
+  .bg {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -13,18 +13,18 @@
     height: calc(100% + var(--x-spacing));
     background-color: hsl(var(--color-bg-alt));
     clip-path: inset(0px var(--x-spacing) round 3rem 3rem 0rem 0rem);
-    .showcase{
+    .showcase {
       width: 100%;
       height: 9rem;
       opacity: 0;
-      background-image: url('/photos/showcase.svg');
+      background-image: url("/photos/showcase.svg");
       background-position: 0 50%;
       background-repeat: repeat-x;
       animation: fadeIn 2s ease-in-out forwards 1s, slideBg 60s linear infinite;
 
-      &.v1{
+      &.v1 {
       }
-      &.v2{
+      &.v2 {
         margin-top: auto;
       }
 
@@ -47,7 +47,7 @@
     }
   }
   > * {
-    &:last-of-type{
+    &:last-of-type {
       @include respond-below(md) {
         transform: none !important;
         height: auto !important;
@@ -57,7 +57,7 @@
   }
 }
 
-.header{
+.header {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -68,14 +68,14 @@
   padding-bottom: 3rem;
 }
 
-.description{
+.description {
   margin-bottom: auto;
   font-size: var(--fs-sm);
   font-weight: var(--fw-regular);
   color: hsl(var(--color-body));
 }
 
-.xScrollContainer{
+.xScrollContainer {
   display: flex;
   gap: var(--x-spacing);
 
@@ -98,14 +98,14 @@
   > * {
     width: 38dvw;
     height: calc(100dvh - (var(--x-spacing) * 2.3));
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     @include respond-below(md) {
       width: 100%;
       height: auto;
       max-height: 52rem;
     }
 
-    &:first-child{
+    &:first-child {
       width: auto;
       max-width: 40rem;
       height: 100%;
@@ -117,7 +117,7 @@
 }
 
 // Card
-.browser{
+.browser {
   position: relative;
   z-index: 1;
   display: flex;
@@ -127,27 +127,32 @@
   @include respond-below(md) {
     transform: none !important;
   }
-  &:hover{
-    .browserHeader{
+  &:hover {
+    .browserHeader {
       transform: translateY(-2rem);
     }
-    .date{
+    .date {
       opacity: 1;
     }
-    &:before{
-      background: hsl(calc(var(--h) + 2), calc(var(--s) + 2%), calc(var(--l) + 5%));
+    &:before {
+      background: hsl(
+        calc(var(--h) + 2),
+        calc(var(--s) + 2%),
+        calc(var(--l) + 5%)
+      );
       transform: scalex(1.02) scaleY(1.02);
     }
-    &:after{
+    &:after {
       transform: scalex(1.02) scaleY(1.02);
     }
   }
-  &:before, &:after{
+  &:before,
+  &:after {
     position: absolute;
-    content: '';
+    content: "";
     transition: all 0.3s ease;
   }
-  &:before{
+  &:before {
     z-index: -1;
     inset: 0;
     width: 100%;
@@ -156,18 +161,18 @@
     transform-origin: bottom center;
     border-radius: 2rem;
   }
-  &:after{
+  &:after {
     left: 0;
     top: 0;
     display: block;
     width: 100%;
     height: 5rem;
-    background: hsl(var(--h), var(--s), calc( var(--l) + 30%));
+    background: hsl(var(--h), var(--s), calc(var(--l) + 30%));
     filter: blur(10rem);
     pointer-events: none;
   }
 }
-.browserHeader{
+.browserHeader {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -177,21 +182,21 @@
   padding: 3rem;
   transition: all 0.3s ease;
 }
-.browserBody{
+.browserBody {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   border-radius: 1rem 1rem 0 0;
   overflow: hidden;
   width: calc(100% - 6rem);
-  .image{
+  .image {
     width: 100%;
     height: auto;
     object-fit: contain;
     transition: all 0.3s ease;
   }
 }
-.title{
+.title {
   font-size: var(--fs-md);
   color: hsl(var(--color-white));
   font-weight: var(--fw-regular);
@@ -199,7 +204,7 @@
     color: hsl(var(--color-black));
   }
 }
-.date{
+.date {
   position: absolute;
   bottom: 1rem;
   left: 3rem;
@@ -213,7 +218,7 @@
   }
 }
 
-.redirect{
+.redirect {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,21 +229,21 @@
   text-decoration: none;
   padding: 1rem;
   border-radius: 1rem;
-  &:hover{
+  &:hover {
     background: hsl(var(--color-black));
     .dark & {
       background: hsl(var(--color-primary));
     }
   }
-  svg{
+  svg {
     width: 3rem;
     height: 3rem;
-    rect{
+    rect {
       .dark & {
         fill: hsl(var(--color-black));
       }
     }
-    path{
+    path {
       .dark & {
         fill: hsl(var(--color-white));
       }

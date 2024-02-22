@@ -1,8 +1,8 @@
-@import '/assets/media-queries.scss';
+@import "/assets/media-queries.scss";
 
-.stats{
+.stats {
   position: relative;
-  background: hsla(var(--color-black), 1) url("/photos/card-bg-1.svg") no-repeat;
+  background: hsla(var(--color-black), 1) url("photos/card-bg-1.svg") no-repeat;
   background-size: 150%;
   border-radius: 2rem;
   overflow: hidden;
@@ -18,28 +18,28 @@
   }
 
   @keyframes moveBg {
-    0%{
+    0% {
       background-position: 0 100%;
     }
-    50%{
+    50% {
       background-position: 100% 0;
     }
-    100%{
+    100% {
       background-position: 0 100%;
     }
   }
-  .stat{
+  .stat {
     color: hsla(var(--color-white), 1);
-    &:nth-child(even){
+    &:nth-child(even) {
       text-align: right;
     }
   }
-  .statValue{
+  .statValue {
     display: block;
     font-size: var(--fs-lg);
     font-weight: var(--fw-regular);
   }
-  .statDesc{
+  .statDesc {
     font-size: var(--fs-xs);
     font-weight: var(--fw-regular);
   }
