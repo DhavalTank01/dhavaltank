@@ -6,7 +6,7 @@ module.exports = {
   output: "export",
   // poweredByHeader: false,
   // trailingSlash: true,
-  // basePath: '/dhavaltank',
-  // assetPrefix: '/dhavaltank/',
+  basePath: '/dhavaltank',
+  assetPrefix: '/dhavaltank/',
   reactStrictMode: true,
 };
