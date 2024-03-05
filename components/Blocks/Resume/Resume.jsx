@@ -72,12 +72,12 @@ export default function Resume() {
                                 </p>
                             </div>
                             <figure className={styles.figure}>
-                                <Image src="photos/dhaval.jpeg" alt="Dhaval Tank" width={150} height={150} />
+                                <Image src="/dhavaltank/photos/dhaval.jpeg" alt="Dhaval Tank" width={150} height={150} />
                             </figure>
                         </div>
                         <div className={`${styles.card} ${styles.cardV2}`}>
                             <div className={styles.cardInner}>
-                                <Image src="photos/code-snippet.svg" alt="Code Snippet" width={330} height={480} />
+                                <Image src="/dhavaltank/photos/code-snippet.svg" alt="Code Snippet" width={330} height={480} />
                             </div>
                         </div>
                     </div>

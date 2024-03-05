@@ -11,7 +11,7 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-  background: url("/photos/gradient-blob.svg") center top no-repeat;
+  background: url("/dhavaltank/photos/gradient-blob.svg") center top no-repeat;
   background-size: contain;
   padding-top: 3rem;
   @include respond-below(xs) {
@@ -92,7 +92,7 @@
     overflow: hidden;
     border-radius: 2rem;
     background-color: hsl(var(--color-bg));
-    background-image: url("/photos/spiral.svg");
+    background-image: url("/dhavaltank/photos/spiral.svg");
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;

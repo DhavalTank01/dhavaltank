@@ -1,90 +1,90 @@
 [
   {
-    "image": "icon/icon-js.svg",
+    "image": "/dhavaltank/icon/icon-js.svg",
     "title": "JavaScript",
     "subtitle": "Vanilla, jQuery",
     "description": "I bring websites to life with JavaScript, adding interactive features and optimizing performance with clean and efficient code."
   },
   {
-    "image": "icon/icon-react.svg",
+    "image": "/dhavaltank/icon/icon-react.svg",
     "title": "React JS",
     "subtitle": "Next.js, Vercel",
     "description": "Using React, I craft scalable user interfaces with components, state management, and virtual DOM manipulation for seamless web applications."
   },
   {
-    "image": "icon/icon-css.svg",
+    "image": "/dhavaltank/icon/icon-css.svg",
     "title": "CSS",
     "subtitle": "Animations, Sass",
     "description": "I prioritize pixel perfection, paying close attention to details for visually polished and precisely aligned designs, ensuring a seamless user experience."
   },
   {
-    "image": "icon/icon-html.svg",
+    "image": "/dhavaltank/icon/icon-html.svg",
     "title": "HTML",
     "subtitle": "Semantic Markup",
     "description": "Beyond markup, HTML is crucial for an inclusive web. I structure content carefully for universal accessibility."
   },
   {
-    "image": "icon/icon-optimization.svg",
+    "image": "/dhavaltank/icon/icon-optimization.svg",
     "title": "PageSpeed",
     "subtitle": "Insights",
     "description": "I specialize in enhancing website performance, ensuring fast loading times and efficient resource utilization for an optimal user experience."
   },
   {
-    "image": "icon/icon-figma.svg",
+    "image": "/dhavaltank/icon/icon-figma.svg",
     "title": "Design",
     "subtitle": "Figma & Photoshop",
     "description": "While not a full-time UI designer, I have an eye for aesthetics, creating visually appealing and user-friendly interfaces."
   },
   {
-    "image": "icon/icon-api.svg",
+    "image": "/dhavaltank/icon/icon-api.svg",
     "title": "REST APIs",
     "subtitle": "Axios x Fetch",
     "description": "I integrate data and functionality seamlessly with REST APIs, creating dynamic web applications for enhanced performance."
   },
   {
-    "image": "icon/bootstrap.svg",
+    "image": "/dhavaltank/icon/bootstrap.svg",
     "title": "Bootstrap",
     "subtitle": "Axios x Fetch",
     "description": "I integrate data and functionality seamlessly with REST APIs, creating dynamic web applications for enhanced performance."
   },
   {
-    "image": "icon/sass.svg",
+    "image": "/dhavaltank/icon/sass.svg",
     "title": "SCSS",
     "subtitle": "Styling with Sass",
     "description": "I utilize SCSS to create modular, maintainable, and scalable stylesheets, enhancing the visual appeal and organization of web projects."
   },
   {
-    "image": "icon/php.svg",
+    "image": "/dhavaltank/icon/php.svg",
     "title": "PHP",
     "subtitle": "Server-side scripting",
     "description": "With PHP, I develop dynamic and interactive web applications, leveraging its extensive features and frameworks to build robust backend functionality."
   },
   {
-    "image": "icon/python.svg",
+    "image": "/dhavaltank/icon/python.svg",
     "title": "Python (Django)",
     "subtitle": "Django Framework",
     "description": "Using Django in Python, I build scalable and secure web applications, employing its powerful features for rapid development and efficient project management."
   },
   {
-    "image": "icon/icons8-express-js.svg",
+    "image": "/dhavaltank/icon/icons8-express-js.svg",
     "title": "ExpressJS",
     "subtitle": "Node.js Framework",
     "description": "With ExpressJS, I develop fast and minimalist web applications, utilizing its robust features and middleware support for building scalable and efficient server-side applications."
   },
   {
-    "image": "icon/node.svg",
+    "image": "/dhavaltank/icon/node.svg",
     "title": "Node.js",
     "subtitle": "JavaScript Runtime",
     "description": "I leverage Node.js to build scalable and real-time web applications, utilizing its event-driven architecture and vast ecosystem of packages for efficient server-side development."
   },
   {
-    "image": "icon/icons8-mongodb.svg",
+    "image": "/dhavaltank/icon/icons8-mongodb.svg",
     "title": "MongoDB",
     "subtitle": "NoSQL Database",
     "description": "With MongoDB, I develop flexible and scalable database solutions, harnessing its document-oriented storage and distributed architecture for building high-performance applications."
   },
   {
-    "image": "icon/icons8-mysql.svg",
+    "image": "/dhavaltank/icon/icons8-mysql.svg",
     "title": "MySQL",
     "subtitle": "Relational Database",
     "description": "Utilizing MySQL, I design and manage relational databases, ensuring data integrity and reliability while supporting complex queries and transactions in web applications."

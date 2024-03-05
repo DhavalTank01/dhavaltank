@@ -136,7 +136,7 @@ export default function Hero() {
                                 I&apos;m Dhaval <span className={`${styles.icon}`}>
                                     <span className={styles.reveal}></span>
                                     <Image
-                                        src="photos/hero-image.jpg"
+                                        src="/dhavaltank/photos/hero-image.jpg"
                                         alt={commonConfig.metadata.title}
                                         width={640}
                                         height={300}
