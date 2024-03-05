@@ -7,6 +7,6 @@ module.exports = {
   // poweredByHeader: false,
   // trailingSlash: true,
   basePath: '/dhavaltank',
-  // assetPrefix: '/dhavaltank/',
+  assetPrefix: '/dhavaltank/',
   reactStrictMode: true,
 };
