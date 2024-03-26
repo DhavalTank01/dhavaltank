@@ -97,7 +97,7 @@ export default function Footer() {
                 </div>
             </div>
             <figure className={styles.skeleton} ref={skeleton}>
-                <Image src="photos/skeleton.png" alt={commonConfig.metadata.title} width={379} height={259} loading={"lazy"} />
+                <Image src="/dhavaltank/photos/skeleton.png" alt={commonConfig.metadata.title} width={379} height={259} loading={"lazy"} />
                 <span className={`${styles.eyeball} ${styles.left}`}></span>
                 <span className={`${styles.eyeball} ${styles.right}`}></span>
             </figure>

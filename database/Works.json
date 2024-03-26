@@ -1,11 +1,10 @@
 [
   {
-    "title": "UAE Year of",
-    "image": "/dhavaltank/reference/uae-yearof.jpg",
-    "description": "Welcome to the Year of Sustainability. Sustainability is about protecting our land, resources and one another today, for a better tomorrow.",
-    "url": "https://uaeyearof.ae/",
+    "title": "CRUD App using Redux Toolkit",
+    "image": "/dhavaltank/reference/project 1.png",
+    "url": "https://dhavaltank01.github.io/crud-with-redux-toolkit/",
     "date": "2023",
-    "service": "Frontend Development",
+    "technologies": "ReactJS SCSS",
     "color": {
       "h": "30",
       "s": "100%",
@@ -13,12 +12,11 @@
     }
   },
   {
-    "title": "R Qitects",
-    "image": "/dhavaltank/reference/rqitects.jpg",
-    "description": "Premier design studio and architecture company in the UAE. Enhance your projects with our top architects, leading the way in innovative and timeless design solutions.",
-    "url": "https://rqitects.com/",
-    "date": "2022",
-    "service": "Development",
+    "title": "ECommere Teamplate",
+    "image": "/dhavaltank/reference/project 2.png",
+    "url": "https://dhavaltank01.github.io/Capital_Shop/",
+    "date": "2023",
+    "technologies": "ReactJS SCSS",
     "color": {
       "h": "0",
       "s": "0%",
