@@ -1,0 +1,59 @@
+{
+  "name": "dhavaltank",
+  "description": "Create an automatic portfolio based on GitHub profile",
+  "version": "3.1.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Dhaval Tank",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DhavalTank01/dhavaltank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DhavalTank01/dhavaltank/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
+    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@arifszn/blog-js": "^2.0.6",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "daisyui": "^4.7.3",
+    "date-fns": "^3.6.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "react-helmet-async": "^2.0.4",
+    "react-hotjar": "^6.2.0",
+    "react-icons": "^5.0.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.3",
+    "vail": "^1.0.3",
+    "vite": "^5.2.8",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-pwa": "^0.19.7"
+  },
+  "keywords": [
+    "DhavalTank01"
+  ]
+}
