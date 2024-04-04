@@ -9,11 +9,6 @@ var CONFIG = {
     username: "DhavalTank01"
     // Your GitHub org/user name. (This is the only required config)
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/DhavalTank01/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/DhavalTank01/portfolio, then set base to '/portfolio/'.
-   */
   base: "/dhavaltank/",
   projects: {
     github: {
@@ -31,13 +26,11 @@ var CONFIG = {
           forks: false,
           // Forked projects will not be displayed if set to true.
           projects: []
-          // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         }
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ["arifszn/dhavaltank", "arifszn/pandora"]
-        // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: []
       }
     },
     external: {
@@ -67,15 +60,15 @@ var CONFIG = {
   social: {
     linkedin: "ariful-alam",
     // twitter: 'arif_szn',
-    // mastodon: 'arifszn@mastodon.social',
+    // mastodon: '',
     // researchGate: '',
     facebook: "",
     instagram: "",
     // youtube: '', // example: 'pewdiepie'
     // dribbble: '',
     // behance: '',
-    // medium: 'arifszn',
-    // dev: 'arifszn',
+    // medium: '',
+    // dev: '',
     // stackoverflow: '', // example: '1/jeff-atwood'
     skype: "",
     telegram: "",
@@ -160,14 +153,7 @@ var CONFIG = {
     }
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: "dev",
-    // medium | dev
-    username: "arifszn",
-    // to hide blog section, keep it empty
-    limit: 2
-    // How many articles to display. Max is 10.
-  },
+  blog: {},
   googleAnalytics: {
     id: ""
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
