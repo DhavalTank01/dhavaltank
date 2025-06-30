@@ -75,8 +75,9 @@ const ListItem: React.FC<{
         {icon} {title}
       </div>
       <div
-        className={`${skeleton ? 'flex-grow' : ''
-          } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
+        className={`${
+          skeleton ? 'flex-grow' : ''
+        } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
         style={{
           wordBreak: 'break-word',
         }}
@@ -127,6 +128,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   icon={<MdLocationOn />}
                   title="Based in:"
                   value={profile.location}
+                  link={'https://maps.app.goo.gl/A8DQ4gbzDswRRRPAA'}
                 />
               )}
               {profile.company && (
@@ -175,7 +177,10 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 <ListItem
                   icon={<FaLinkedin />}
                   title="LinkedIn:"
-                  value={social.linkedin}
+                  value={social.linkedin?.replace(
+                    'dhaval-tank-0950ba177',
+                    'Dhaval Tank',
+                  )}
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
@@ -249,7 +254,11 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Website:"
                   value={social.website
                     .replace('https://', '')
-                    .replace('http://', '')}
+                    .replace('http://', '')
+                    .replace(
+                      'dhavaltank01.github.io/dhavaltank/',
+                      'dhavaltank.com',
+                    )}
                   link={
                     !social.website.startsWith('http')
                       ? `http://${social.website}`
@@ -286,7 +295,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   icon={<FaWhatsapp />}
                   title="Whatsapp:"
                   value={social.whatsapp.replace('https://wa.me/', '')}
-                  link={`tel:${social?.whatsapp}`}
+                  link={`${social?.whatsapp}`}
                 />
               )}
               {social?.email && (

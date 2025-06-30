@@ -121,7 +121,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/drive/folders/1rkmhgsyVxivJ8PPgA7jSPrBmn69l3vJl',
+      'https://drive.google.com/drive/folders/1r-hPqhgep4XniQbBw3LoIgwZyaXa0FHy?usp=sharing',
   },
   skills: [
     "C",
